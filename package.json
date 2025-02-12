@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fontsource-variable/exo-2": "^5.1.1",
+    "@fontsource-variable/orbitron": "^5.1.1",
+    "@fontsource/poppins": "^5.1.1",
+    "@fontsource/roboto": "^5.1.1",
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.10.0",
+    "nuxt": "^3.15.4",
+    "pinia": "^3.0.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.83.4",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.9"
+  }
+}
