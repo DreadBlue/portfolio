@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: { 
+    baseURL: '/portfolio/',
     head: {
       title: 'Cristian Prada',
       link: [{
