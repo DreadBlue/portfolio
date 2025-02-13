@@ -1,9 +1,9 @@
 <template>
-  <v-container fluid class="px-3 py-15 bg-main">
-    <v-row class="bg-mygrey rounded-t-lg mx-15">
+  <v-container fluid class="px-3 bg-main" id="mywork">
+    <v-row class="bg-mygrey rounded-t-lg" style="margin-left: 90px; margin-right: 90px; background-image: url('/wing5.png'); background-size: cover; background-blend-mode:overlay;">
       <v-col cols="12" class="d-flex justify-center align-center">
-        <projectt class="pt-15" />
-        <p class="font-orbitron text-h1 color-third pt-15 pb-0">
+        <svg-projectt class="pt-15" />
+        <p class="font-orbitron text-h2 color-third pt-15 pb-0">
           SIDE PROJECTS
         </p>
       </v-col>
@@ -16,7 +16,7 @@
         <Project :item="project" />
       </v-col>
     </v-row>
-    <v-row class="bg-mygrey rounded-b-lg mx-15 py-10">
+    <v-row class="bg-mygrey rounded-b-lg pb-10" style="margin-left: 90px; margin-right: 90px;">
       <v-col cols="12">
         <div class="d-flex ga-3 font-exo justify-space-between px-15 py-10" style="font-weight: 700;">
           <p>TECHNOLOGY STACK</p>
@@ -38,36 +38,36 @@
         </div>
         <div class="d-flex">
           <div class="d-flex align-center ga-1">
-            <htmlsvg style="width: 31%" />
-            <p>HTML5</p>
+            <svg-htmlsvg style="width: 31%" />
+            <p style="font-size: 0.8rem;">HTML5</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <csssvg style="width: 35%" />
-            <p>CSS</p>
+            <svg-csssvg style="width: 35%" />
+            <p style="font-size: 0.8rem;">CSS</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <sassvg style="width: 35%" />
-            <p>SCSS</p>
+            <svg-sassvg style="width: 35%" />
+            <p style="font-size: 0.8rem;">SCSS</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <vue style="width: 35%" />
-            <p>Vue JS</p>
+            <svg-vue style="width: 35%" />
+            <p style="font-size: 0.8rem;">Vue JS</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <vuetify style="width: 32%" />
-            <p>Vuetify</p>
+            <svg-vuetify style="width: 32%" />
+            <p style="font-size: 0.8rem;">Vuetify</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <nuxt style="width: 35%" />
-            <p>Nuxt</p>
+            <svg-nuxt style="width: 35%" />
+            <p style="font-size: 0.8rem;">Nuxt</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <firebase style="width: 35%" />
-            <p>Firebase</p>
+            <svg-firebase style="width: 35%" />
+            <p style="font-size: 0.8rem;">Firebase</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <cloud style="width: 25%" />
-            <p>Google Cloud</p>
+            <svg-cloud style="width: 25%" />
+            <p style="font-size: 0.8rem;">Google Cloud</p>
           </div>
         </div>
       </v-col>
@@ -77,16 +77,20 @@
         </div>
         <div class="d-flex">
             <div class="d-flex align-center ga-1">
-              <react style="width: 40%" />
-              <p>React</p>
+              <svg-react style="width: 40%" />
+              <p style="font-size: 0.8rem;">React</p>
             </div>
           <div class="d-flex align-center ga-1">
-            <git style="width: 45%" />
-            <p>Git</p>
+            <svg-git style="width: 45%" />
+            <p style="font-size: 0.8rem;">Git</p>
           </div>
           <div class="d-flex align-center ga-1">
-            <postgre style="width: 30%" />
-            <p>Postgre</p>
+            <svg-postgre style="width: 30%" />
+            <p style="font-size: 0.8rem;">Postgre</p>
+          </div>
+          <div class="d-flex align-center ga-1">
+            <svg-mongo style="width: 30%" />
+            <p style="font-size: 0.8rem;">MongoDB</p>
           </div>
         </div>
       </v-col>
@@ -96,12 +100,12 @@
         </div>
         <div class="d-flex">
             <div class="d-flex align-center ga-1">
-              <pythonsvg style="width: 32%" />
-              <p>Python</p>
+              <svg-pythonsvg style="width: 32%" />
+              <p style="font-size: 0.8rem;">Python</p>
             </div>
           <div class="d-flex align-center ga-1">
-            <django style="width: 32%" />
-            <p>Django</p>
+            <svg-django style="width: 32%" />
+            <p style="font-size: 0.8rem;">Django</p>
           </div>
         </div>
       </v-col>
@@ -131,7 +135,7 @@ const projects = {
   reservita: {
     title: "2. LA RESERVITA",
     description:
-      "Web app developed for an extreme activities operator in Colombia, focus on the SEO and future expansion to new customers from different countries with different langua",
+      "Web app developed for an extreme activities operator in Colombia, focus on the SEO and future expansion to new customers from different countries with different languages approaches.",
     js: true,
     react: false,
     nuxt: true,

@@ -7,17 +7,21 @@
           {{ item.description }}
         </p>
         <div class="d-flex py-5 ga-5">
-          <js v-if="item.js" />
-          <react v-if="item.react" />
-          <nuxt v-if="item.nuxt" />
-          <firebase v-if="item.firebase" />
-          <cloud v-if="item.cloud" />
-          <vuetify v-if="item.vuetify" />
-          <git v-if="item.git" />
+          <svg-js v-if="item.js" />
+          <svg-react v-if="item.react" />
+          <svg-nuxt v-if="item.nuxt" />
+          <svg-firebase v-if="item.firebase" />
+          <svg-cloud v-if="item.cloud" />
+          <svg-vuetify v-if="item.vuetify" />
+          <svg-git v-if="item.git" />
         </div>
+          <NuxtLink to="`https://${{item.link}}`" class="text-decoration-none color-third font-exo d-flex align-center ga-2" style="font-size: 1.2rem;"> 
+            <svg-link/>
+            {{ item.link }}
+          </NuxtLink>
       </v-col>
       <v-col cols="6">
-        <div class="w-100 elevation-15 rounded-lg">
+        <div class=" elevation-15 rounded-lg">
           <img
             class="w-100 rounded-lg"
             :src="images[0]"
@@ -50,7 +54,7 @@
         </div>
       </v-col>
     </v-row>
-    <modal v-if="showModal && item.title == idModal" :modalImages="images"/>
+    <modal v-if="showModal && item.title == idModal" :modalImages="images" />
   </v-container>
 </template>
 

@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   nitro: {
     firebase: {
       gen: 2
-    }
+    },
+    preset: 'static'
   },
 
   devtools: { enabled: true },

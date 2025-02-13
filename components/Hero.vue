@@ -39,22 +39,15 @@
             <NuxtLink
               class="text-subtitle-1 font-exo text-decoration-none text-main"
               v-bind="props"
-              to="/about"
+              to="/#mywork"
               >MY WORK</NuxtLink
             >
             <NuxtLink
               class="text-subtitle-1 font-exo text-decoration-none text-main"
               v-bind="props"
-              to="/about"
+              to="/#aboutme"
               >ABOUT ME</NuxtLink
             >
-            <!-- <NuxtLink
-              class="text-subtitle-1 font-exo text-decoration-none"
-              :class="isHovering ? 'color-main' : 'text-main'"
-              v-bind="props"
-              to="/about"
-              >LINKS</NuxtLink
-            > -->
           </v-hover>
         </div>
       </v-col>

@@ -1,5 +1,5 @@
 <template>
     <hero/>
-    <work/>
+    <work class="pt-15"/>
     <about/>
 </template>
