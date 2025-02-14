@@ -1,0 +1,1 @@
+import{_ as r,u as o,o as s,m as _,w as c,b as t,Y as l,Z as u}from"./CIo_1Jaj.js";const f={};function p(e,d){const a=o("layout-nav-bar"),n=o("layout-footer");return s(),_(u,null,{default:c(()=>[t(a),l(e.$slots,"default"),t(n)]),_:3})}const i=r(f,[["render",p]]);export{i as default};
