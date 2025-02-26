@@ -1,1 +1,0 @@
-import{_ as r,u as o,o as s,m as _,w as c,b as t,a0 as l,a1 as u}from"./D7neMiuA.js";const f={};function p(a,d){const e=o("layout-nav-bar"),n=o("layout-footer");return s(),_(u,null,{default:c(()=>[t(e),l(a.$slots,"default"),t(n)]),_:3})}const i=r(f,[["render",p]]);export{i as default};
